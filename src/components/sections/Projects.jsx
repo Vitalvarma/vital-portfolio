@@ -14,13 +14,13 @@ export const Projects = () => {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-              <h3 className="text-xl font-bold mb-2"> Blog Platform</h3>
+              <h3 className="text-xl font-bold mb-2">QuickDelivery Application</h3>
               <p className="text-gray-400 mb-4">
-                A full-stack blog platform with user authentication, real-time
-                comments, and a responsive design.
+                A full-stack on-demand delivery platform with real-time tracking,
+                secure payments, and user-friendly interface.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["React", "Node.js", "AWS"].map((tech, key) => (
+                {["React", "Node.js", "Zustand", "MongoDB"].map((tech, key) => (
                   <span
                     key={key}
                     className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
@@ -34,7 +34,7 @@ export const Projects = () => {
 
               <div className="flex justify-between items-center">
                 <a
-                  href="#"
+                  href="https://github.com/Vitalvarma/QuickDelivery"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project →
@@ -49,13 +49,13 @@ export const Projects = () => {
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2">Social-media Application</h3>
+              <h3 className="text-xl font-bold mb-2">SocialMedia Application</h3>
               <p className="text-gray-400 mb-4">
                 scalable social media platform with real-time notifications,
                 user authentication, and a responsive design.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["React","Node.js","Express.js","MongoDB"].map((tech, key) => (
+                {["Next.js","Postgres","Prisma","Clerk","TypeScript"].map((tech, key) => (
                   <span
                     key={key}
                     className="
@@ -72,7 +72,7 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center">
                 <a
-                  href="#"
+                  href="https://github.com/Vitalvarma/social-media"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project →
@@ -88,13 +88,13 @@ export const Projects = () => {
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2">E-Commerce Web App</h3>
+              <h3 className="text-xl font-bold mb-2">E-Commerce Application</h3>
               <p className="text-gray-400 mb-4">
                 Full-stack e-commerce with modern UI, secure payment
                 integration, and customizable product inventory.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Next.js", "TypeScript", "Stripe", "PostgreSQL"].map(
+                {["React.js","Node.js","MongoDB","React-Router"].map(
                   (tech) => (
                     <span
                       key={tech}
@@ -113,7 +113,7 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center">
                 <a
-                  href="#"
+                  href="https://github.com/Vitalvarma/Ecommerce"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project →
@@ -129,13 +129,13 @@ export const Projects = () => {
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2">Real-Time Chat App</h3>
+              <h3 className="text-xl font-bold mb-2">Real-Time Chat Application</h3>
               <p className="text-gray-400 mb-4">
                 Scalable chat platform supporting real-time messaging, presence,
-                and group chat features.
+                and multimedia sharing with a sleek UI.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Socket.IO", "Express", "React", "PostreSql"].map((tech, key) => (
+                {["Socket.IO", "Express", "React", "MongoDb"].map((tech, key) => (
                   <span
                     key={key}
                     className="
@@ -152,7 +152,7 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center ">
                 <a
-                  href="#"
+                  href="https://github.com/Vitalvarma/chat-application"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project →

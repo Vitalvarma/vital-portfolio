@@ -2,17 +2,17 @@ import { RevealOnScroll } from "../RevealOnScroll";
 
 export const About = () => {
   const frontendSkills = [
-    "React",
-    "javascript",
-    "Zustand",
-    "TypeScript",
-    "TailwindCSS",
-    "Next.js",
     "HTML",
     "CSS",
+    "javascript",
+    "TypeScript",
+    "React",
+    "TailwindCSS",
+    "Zustand",
+    "Next.js",
   ];
 
-  const backendSkills = ["Node.js", "Express.js", "AWS", "MongoDB", "Sql"];
+  const backendSkills = ["Node.js", "Express.js", "AWS", "MongoDB", "PostgreSQL"];
 
   return (
     <section
@@ -77,7 +77,7 @@ export const About = () => {
                 </li>
                 <li>
                   Coursework: Data Structures, Web Development, Cloud
-                  Computing...
+                  Computing, Algorithms, Database Management Systems
                 </li>
               </ul>
             </div>
@@ -87,25 +87,15 @@ export const About = () => {
                 <div>
                   <h4 className="font-semibold">
                     {" "}
-                    AWS Virtual Internship(July - Sept 2024){" "}
+                    LearnSquare Technologies  SDE Intern (MERN Stack)(may - june 2025){" "}
                   </h4>
-                  <p>
-                    Learnt working with AWS services like EC2, S3, and Lambda.
-                    Developed a sample web application using AWS Amplify and
-                    deployed it on AWS.
-                  </p>
-                </div>
-
-                <div>
-                  <h4 className="font-semibold">
-                    {" "}
-                    Mentee in Apertre2.0 program(Mar - Apr 2024){" "}
-                  </h4>
-                  <p>
-                    Particapted in a Open-sorce program where I contributed to a
-                    project. Gained hands-on experience in collaborating with a
-                    Mentors and using Git for version control.
-                  </p>
+                  <br />
+                  <ol className="text-l text-gray-400 mb-2">
+                    <li>Contributed to product roadmaps, aligning development with business priorities.</li>
+                    <li>Optimized application performance, reducing load times and improving efficiency.</li>
+                    <li>Collaborated with cross‑functional teams to design and implement new features.</li>
+                    <li>Delivered technical support and bug fixes, ensuring smooth user experience</li>
+                  </ol>
                 </div>
               </div>
             </div>

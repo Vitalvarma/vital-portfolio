@@ -12,10 +12,9 @@ export const Home = () => {
             Hi, I'm Vital Ramana
           </h1>
 
-          <p className="tex-gray-400 text-lg mb-8 max-w-lg mx-auto">
-            I’m a full-stack developer who loves crafting clean, scalable web
-            applications. My goal is to build solutions that offer both
-            exceptional performance and a delightful user experience.
+          <p className="tex-gray-400 text-lg mb-8 max-w-xl mx-auto">
+            Full‑Stack JavaScript Developer with hands‑on experience in building scalable, secure, and user‑centric web applications. Proficient in React.js, Node.js, Express.js, MongoDB, and Next.js, with additional expertise in PostgreSQL, Prisma, and cloud integrations (AWS, Stripe, Cloudinary). Skilled in designing REST APIs, implementing authentication/authorization, and optimizing performance for real‑time applications. Strong collaborator with proven ability to deliver high‑quality solutions in agile environments, eager to contribute to innovative product teams.
+
           </p>
           <div className="flex justify-center space-x-4">
             <a
