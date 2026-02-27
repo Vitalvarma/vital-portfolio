@@ -13,8 +13,7 @@ export const Home = () => {
           </h1>
 
           <p className="tex-gray-400 text-lg mb-8 max-w-xl mx-auto">
-            Full‑Stack JavaScript Developer with hands‑on experience in building scalable, secure, and user‑centric web applications. Proficient in React.js, Node.js, Express.js, MongoDB, and Next.js, with additional expertise in PostgreSQL, Prisma, and cloud integrations (AWS, Stripe, Cloudinary). Skilled in designing REST APIs, implementing authentication/authorization, and optimizing performance for real‑time applications. Strong collaborator with proven ability to deliver high‑quality solutions in agile environments, eager to contribute to innovative product teams.
-
+            Full-Stack JavaScript Developer experienced in building scalable and secure web applications using React.js, Node.js, Express.js, MongoDB, and Next.js. Skilled in REST APIs, authentication, PostgreSQL, Prisma, and cloud integrations like AWS and Stripe. Focused on performance optimization and delivering high-quality solutions in agile teams.
           </p>
           <div className="flex justify-center space-x-4">
             <a
