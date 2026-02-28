@@ -16,7 +16,7 @@ export const Contact = () => {
           </h2>
           <div className="text-center space-y-4">
             <p className="text-white">
-              Email: <a href="mailto:vital@example.com" className="text-blue-400 hover:underline">vitalvarma13@example.com</a>
+              Email: <a href="mailto:vital@example.com" className="text-blue-400 hover:underline">vitalvarma13@gmail.com</a>
             </p>
             <p className="text-white">
               Location: Bhimavarma, Andhra Pradesh, India
