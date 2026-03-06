@@ -9,10 +9,10 @@ export const Home = () => {
       <RevealOnScroll>
         <div className="text-center z-10 px-4">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent leading-right">
-            Hi, I'm Vital Ramana
+            Hi, I&apos;m Vital Ramana
           </h1>
 
-          <p className="tex-gray-400 text-lg mb-8 max-w-xl mx-auto">
+          <p className="text-gray-400 text-lg mb-8 max-w-xl mx-auto">
             Full‑Stack JavaScript Developer with hands‑on experience in building scalable, secure, and user‑centric web applications. Proficient in React.js, Node.js, Express.js, MongoDB, and Next.js, with additional expertise in PostgreSQL, Prisma, and cloud integrations (AWS, Stripe, Cloudinary). Skilled in designing REST APIs, implementing authentication/authorization, and optimizing performance for real‑time applications. Strong collaborator with proven ability to deliver high‑quality solutions in agile environments, eager to contribute to innovative product teams.
 
           </p>

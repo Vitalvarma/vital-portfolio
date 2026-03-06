@@ -1,5 +1,5 @@
 import { RevealOnScroll } from "../RevealOnScroll";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaGlobe } from "react-icons/fa";
 import { SiLeetcode, SiCodingninjas, SiGeeksforgeeks } from "react-icons/si";
 
 export const Contact = () => {
@@ -16,13 +16,16 @@ export const Contact = () => {
           </h2>
           <div className="text-center space-y-4">
             <p className="text-white">
-              Email: <a href="mailto:vital@example.com" className="text-blue-400 hover:underline">vitalvarma13@example.com</a>
+              Email: <a href="mailto:vitalvarma13@gmail.com" className="text-blue-400 hover:underline">vitalvarma13@gmail.com</a>
             </p>
             <p className="text-white">
-              Location: Bhimavarma, Andhra Pradesh, India
+              Phone: <a href="tel:+919000138899" className="text-blue-400 hover:underline">+91 9000138899</a>
+            </p>
+            <p className="text-white">
+              Location: Bhimavaram, Andhra Pradesh, India
             </p>
             <div className="flex justify-center space-x-6 mt-6 text-blue-400">
-              <a href="https://www.linkedin.com/in/vital-varma-a1b9002b4" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="hover:text-blue-600 transition">
+              <a href="https://www.linkedin.com/in/vital-chintalapati-a1b9002b4" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="hover:text-blue-600 transition">
                 <FaLinkedin size={30} />
               </a>
               <a href="https://leetcode.com/u/vital_varma/" target="_blank" rel="noopener noreferrer" aria-label="LeetCode" className="hover:text-yellow-500 transition">
@@ -36,6 +39,9 @@ export const Contact = () => {
               </a>
               <a href="https://github.com/Vitalvarma" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="hover:text-gray-300 transition">
                 <FaGithub size={30} />
+              </a>
+              <a href="https://vitalvarma.tech" target="_blank" rel="noopener noreferrer" aria-label="Portfolio" className="hover:text-cyan-400 transition">
+                <FaGlobe size={30} />
               </a>
             </div>
           </div>
