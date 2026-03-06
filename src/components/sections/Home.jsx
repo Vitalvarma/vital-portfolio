@@ -1,3 +1,4 @@
+
 import { RevealOnScroll } from "../RevealOnScroll";
 
 export const Home = () => {
@@ -37,3 +38,4 @@ export const Home = () => {
     </section>
   );
 };
+
