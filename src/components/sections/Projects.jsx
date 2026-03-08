@@ -87,7 +87,7 @@ export const Projects = () => {
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2">Social Media Application</h3>
+              <h3 className="text-xl font-bold mb-2">DevConnect</h3>
               <p className="text-gray-400 mb-4">
                 Engineered a full-stack social platform with dynamic routing and secure authentication. Designed normalized relational schema and optimized SQL queries for performance.
               </p>
@@ -109,7 +109,7 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center">
                 <a
-                  href="https://github.com/Vitalvarma/social-media"
+                  href="https://github.com/Vitalvarma/devconnect"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project →
