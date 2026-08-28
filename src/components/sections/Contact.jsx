@@ -26,7 +26,7 @@ export const Contact = () => {
               Location: Bhimavaram, Andhra Pradesh, India
             </p>
             <div className="flex justify-center space-x-6 mt-6 text-blue-400">
-              <a href="https://www.linkedin.com/in/vital-chintalapati-a1b9002b4" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="hover:text-blue-600 transition">
+              <a href="https://www.linkedin.com/in/vital-varma" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="hover:text-blue-600 transition">
                 <FaLinkedin size={30} />
               </a>
               <a href="https://leetcode.com/u/vital_varma/" target="_blank" rel="noopener noreferrer" aria-label="LeetCode" className="hover:text-yellow-500 transition">
